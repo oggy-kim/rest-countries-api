@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# guide
+/rest-countries-api-with-color-theme-switcher-master

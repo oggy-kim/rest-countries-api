@@ -1,4 +1,21 @@
+@import "../style.global.scss";
+
 .header {
-  height: 100px;
+  height: 70px;
   display: flex;
+  align-items: center;
+  box-shadow: $box-shadow;
+
+  & h2 {
+    font-size: 2rem;
+    font-weight: $weight-bold;
+  }
+
+  & .theme {
+    margin-left: auto;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }

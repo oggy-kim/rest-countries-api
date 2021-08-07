@@ -1,0 +1,8 @@
+@import "../../style.global.scss";
+
+.countryWrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 22%);
+  gap: 50px 4%;
+}

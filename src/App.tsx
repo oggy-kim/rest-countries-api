@@ -7,8 +7,8 @@ import Home from "./components/Home";
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/" render={() => <Home />} />
           <Route

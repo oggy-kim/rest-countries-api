@@ -1,0 +1,56 @@
+@import "../style.global.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.backbutton {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
+  text-align: center;
+  margin: 50px 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.countryWrapper {
+  display: flex;
+}
+
+.flag {
+  width: 40%;
+}
+
+.information {
+  margin-left: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  & > h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
+.borderCountry {
+  margin: 0 5px;
+  box-shadow: $box-shadow;
+  border-radius: 5px;
+  padding: 5px 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
